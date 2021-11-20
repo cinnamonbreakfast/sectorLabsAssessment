@@ -1,0 +1,49 @@
+.record {
+    width: 100%;
+    position: relative;
+    margin-bottom: 40px;
+
+    .dot {
+        width: 10px;
+        height: 10px;
+        background-color: #cbcbcb;
+        border-radius: 5px;
+
+        position: absolute;
+        left: -26px;
+        top: 16px;
+    }
+
+    .userData {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 10px;
+
+        img {
+            width: 40px;
+            border-radius: 20px;
+            margin-right: 15px;
+        }
+
+        h2 {
+            font-size: 14px;
+            font-weight: 300;
+            margin: 0px;
+            padding: 0px;
+            line-height: 14px;
+        }
+    }
+
+    .files {
+        border: 1px solid #cbcbcb;
+        border-radius: 10px;
+        padding: 15px;
+    }
+
+    .forks {
+        h2 {
+            font-size: 20px;
+        }
+    }
+}

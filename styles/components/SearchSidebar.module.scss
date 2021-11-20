@@ -1,0 +1,23 @@
+.wrapper {
+    padding-right: 50px;
+
+    .pageControlls {
+        margin-bottom: 10px;
+
+        p {
+            margin-bottom: 5px;
+        }
+    }
+
+    .paginator {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        p {
+            margin: 0px 20px;
+        }
+    }
+}

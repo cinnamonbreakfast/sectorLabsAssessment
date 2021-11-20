@@ -1,0 +1,27 @@
+.accordion {
+    margin-bottom: 10px;
+
+    &:last-child {
+        margin-bottom: 0px;
+    }
+
+    .fileHeader {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        button {
+            padding: 4px 8px;
+            margin-bottom: 5px;
+        }
+
+        p {
+            background-color: brown;
+            color: #ffffff;
+            font-size: 12px;
+            padding: 2px 4px;
+            border-radius: 6px;
+            margin-left: 5px;
+        }
+    }
+}
